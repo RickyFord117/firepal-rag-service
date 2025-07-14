@@ -1,0 +1,10 @@
+# Environments
+# Ignore all .env files, including .env.local, .env.production, and project-specific ones
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

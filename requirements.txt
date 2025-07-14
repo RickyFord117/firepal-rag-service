@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gunicorn
+pydantic
+qdrant-client
+openai
+SQLAlchemy
+python-dotenv
