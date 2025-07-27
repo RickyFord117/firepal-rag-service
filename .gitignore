@@ -11,3 +11,6 @@ venv.bak/
 
 # Data
 data
+
+# Cache
+__pycache__

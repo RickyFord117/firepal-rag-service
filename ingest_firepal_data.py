@@ -18,6 +18,11 @@ from src.config import (
     VECTOR_SIZE,
 )
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 qdrant_client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
 
